@@ -20,7 +20,7 @@ Config.set('graphics', 'height', '300')  # 高さを固定
 Config.set('graphics', 'resizable', False)  # ウィンドウサイズのリサイズを無効にする
 
 # 日本語フォントを登録
-LabelBase.register(name='JapaneseFont', fn_regular='./ヒラギノ角ゴシック W3.ttc')
+LabelBase.register(name='JapaneseFont', fn_regular='./font/ヒラギノ角ゴシック W3.ttc')
 
 # .envファイルをロード
 load_dotenv()

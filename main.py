@@ -227,11 +227,11 @@ class Root_Layout(FloatLayout):
         self.ids.text_C.text = ''
 
 
-class MyApp(App):
+class KrStvideoGeneratorApp(App):
 
     def build(self):
         return Root_Layout()
 
 
 if __name__ == '__main__':
-    MyApp().run()
+    KrStvideoGeneratorApp().run()

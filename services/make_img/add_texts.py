@@ -19,10 +19,8 @@ def make_jpg(japanese, korean, romanization, savename):
 
     # テンプレート画像の読み込み
     img = Image.open('./services/imgs/white_smp.jpg')
-    jp_font = ImageFont.truetype('/System/Library/Fonts/ヒラギノ丸ゴ ProN W4.ttc',
-                                 120)
-    kr_font = ImageFont.truetype('/System/Library/Fonts/DoHyeon-Regular.ttf',
-                                 120)
+    jp_font = ImageFont.truetype('./fonts/ヒラギノ角ゴシック W3.ttc', 120)
+    kr_font = ImageFont.truetype('./fonts/DoHyeon-Regular.ttf', 120)
 
     draw = ImageDraw.Draw(img)
 

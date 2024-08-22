@@ -17,7 +17,6 @@ from kivy.uix.button import Button
 # ウィンドウサイズを固定する設定
 Config.set('graphics', 'width', '300')  # 幅を固定
 Config.set('graphics', 'height', '300')  # 高さを固定
-Config.set('graphics', 'resizable', False)  # ウィンドウサイズのリサイズを無効にする
 
 # 日本語フォントを登録
 LabelBase.register(name='JapaneseFont', fn_regular='./fonts/ヒラギノ角ゴシック W3.ttc')

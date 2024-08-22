@@ -1,4 +1,4 @@
-# about
+# About
 
 このアプリケーションは、kivyで動作します。
 また、使用にはOpenAIのAPI keyが必要です。
